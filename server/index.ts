@@ -4,7 +4,7 @@ import session from "express-session";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 import { connectDB } from "./db";
-import { startBot } from "./bot";
+
 
 const app = express();
 
